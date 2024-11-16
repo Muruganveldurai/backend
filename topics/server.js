@@ -3,7 +3,8 @@ var app= express();
 var path=require('path');
 var bodyparser=require('body-parser');
 var mur=require('./export');
-app.use(express.json(bodyparser.json()));
+
+
 
 app.use(express.static('./public'))//static is used to show everyone
 
